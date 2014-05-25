@@ -45,13 +45,10 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>Write something about yourself.</p>
+		<p>爱电影，爱旅游，爱妹纸，德艺双馨，功夫到家。深度中二病，想当PM的苦逼码农，偶尔文艺范，左手代码右手写诗。.</p>
 	</div>
 	
-	<div class="block block-license">
-		<h3>Copyright</h3>
-		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
-	</div>
+	
 	
 	{% if site.meta.author.github %}
 	<div class="block block-fork">
